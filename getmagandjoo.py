@@ -26,7 +26,8 @@ class downloader:
         self.versions           = {'Magento':[], 'Joomla':[]}
         self.downloadedFiles    = []
         self.basePath           = basePath
-        self.downloadFiles      = False
+        self.downloadFiles      = True
+        self.pathToMake        = ''
         if not os.path.isdir(self.basePath):
             print 'Path to download to does not exist'
             exit()
@@ -36,7 +37,10 @@ class downloader:
         if not self.checkVersion("Magento", version):
             self.versions['Magento'].append(version)
             theUrl  = 'http://www.magentocommerce.com/downloads/assets/'+version+'/magento-'+version+'.tar.gz'
+            self.createPath()
             self.download(theUrl)
+        else:
+            print "version %s already downloaded" % (version)
 
     def getMageLatestVersion(self):
         downloadPage    = self.bot.GET(self.magentoDownloadUrl)
@@ -57,14 +61,18 @@ class downloader:
             version  = filename.split('_')[1]
             self.versions['Joomla'].append(version)
             if not self.checkVersion('Joomla', version):
+                self.createPath()
                 self.download(link)
+            else:
+                print "Version %s already downloaded" % (version)
 
     def download(self, url):
         file_name = url.split('/')[-1]
-        print "downloading "+file_name
+        file_path = os.path.join(self.downloadPath, file_name) 
+        print "downloading "+os.path.join(self.downloadPath, file_name)
         if self.downloadFiles:
             u         = urllib2.urlopen(url)
-            f         = open(file_name, 'wb')
+            f         = open(file_path, 'wb')
             meta      = u.info()
             file_size = int(meta.getheaders("Content-Length")[0])
             print "Downloading: %s Bytes: %s" % (file_name, file_size)
@@ -86,16 +94,17 @@ class downloader:
 
     def checkVersion(self, package, version):
         path = os.path.join(self.basePath, os.path.join(package, version))
-        print path
-        return os.path.exists(path)
+        pathExsists = os.path.exists(path)
+        if not pathExsists:
+            self.pathToMake = path
+        return pathExsists
 
-    def handleFiles(self):
-        if os.path.isdir(self.basePath):
-            # magePath = os.path.join(self.basePath, os.path.join('Magento', self.versions['Magento'][0]))
-            for package in self.versions:
-                for version in self.versions[package]:
-                    path = os.path.join(self.basePath, os.path.join(package, version))
-                    # print path
+    def createPath(self):
+        path = self.pathToMake
+        os.makedirs(path)
+        print "created %s" % (path)
+        self.downloadPath = path
+
 
 # create a subclass and override the handler methods
 class JoomlaParser(HTMLParser):
