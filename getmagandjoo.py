@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
-import urllib, urllib2, os, sys
+import urllib, urllib2, os, sys, logging
 from pprint import pprint
 from HTMLParser import HTMLParser
-
+from zipfile import ZipFile as zip
 
 class HttpBot:
     """an HttpBot represents one browser session, with cookies."""
@@ -18,14 +18,11 @@ class HttpBot:
     def POST(self, url, parameters):
         return self._opener.open(url, urllib.urlencode(parameters)).read()
 
-
 class downloader:
     def __init__(self, basePath):
         self.bot                = HttpBot()
         self.magentoDownloadUrl = 'https://www.magentocommerce.com/download'
         self.jomDownloadPage    = 'http://www.joomla.org/download.html'
-        self.versions           = {'Magento':[], 'Joomla':[]}
-        self.downloadedFiles    = []
         self.basePath           = basePath
         self.downloadFiles      = True
         self.pathToMake        = ''
@@ -38,7 +35,7 @@ class downloader:
         version = self.getMageLatestVersion() #get the latest Magento version
         #if the latest version is not yet downloaded, download it
         if not self.checkVersion("Magento", version):
-            self.versions['Magento'].append(version) #append the version into the versions dict
+            # self.versions['Magento'].append(version) #append the version into the versions dict
             # create the download url based on the version
             theUrl  = 'http://www.magentocommerce.com/downloads/assets/'+version+'/magento-'+version+'.tar.gz'
             self.createPath() #create the path needed for the download
@@ -68,7 +65,7 @@ class downloader:
         for link in parser.downloadLinks:
             filename = link.split('/')[-1] #get the file name
             version  = filename.split('_')[1] #get the version
-            self.versions['Joomla'].append(version) #append the version to the versions dict
+            # self.versions['Joomla'].append(version) #append the version to the versions dict
             #check if the version already exsists,
             if not self.checkVersion('Joomla', version):
                 #if not, create the download path
@@ -115,8 +112,7 @@ class downloader:
                 print status,
 
             f.close()
-        #append the file name to the downloaded files list
-        self.downloadedFiles.append(file_name)
+        
     ## 
     # Checks if the folder structure for the given package and version already exsists
     # @package string name of the package (like "Magento")
@@ -136,8 +132,14 @@ class downloader:
         print "created %s" % (path)
         self.downloadPath = path
 
+    def unzip(self, _file):
+        z = zip(_file)
+        for f in z.namelist():
+            if f.endswith('/'):
+                os.makedirs(f)
+            else:
+                z.extract(f)
 
-# create a subclass and override the handler methods
 class JoomlaParser(HTMLParser):
     inDownloadButton = False #Get sets to True when the download button is found
     downloadLinks = [] #will contain the two Joomla download links
@@ -174,7 +176,9 @@ class MagentoParser(HTMLParser):
                         self.versions.append(version) #append it to the versions list
 
 if __name__ == "__main__":
+    #initiate the downloader
     d = downloader('/Volumes/Extra HDD/BSMedia/')
+    #get the latest Magento version
     d.getMage()
+    #get the latest Joomla version
     d.getJom()
-    # d.handleFiles()
