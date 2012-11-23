@@ -1,5 +1,8 @@
+from htmlparsers import JoomlaParser, MagentoParser
+from httpbot import HttpBot
+from MyLogger import MyLogger
 from zipfile import ZipFile as zip
-import os, sys
+import os, sys, urllib2
 
 class downloader:
     def __init__(self, basePath):

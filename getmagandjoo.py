@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from app import 
+from app import downloader
 
 if __name__ == "__main__":
     #initiate the downloader
