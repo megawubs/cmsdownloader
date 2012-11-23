@@ -123,8 +123,8 @@ class downloader:
     # @version string the version of the package (like "1.7.0.1") 
     def checkVersion(self, package, version, filename):
         folderPath = os.path.join(self.basePath, os.path.join(package, version))
-        filePath = os.path.join(self.basePath, os.path.join(package, os.path.join(version, filename)))
-        pathExsists = os.path.exists(filePath)
+        # filePath = os.path.join(self.basePath, os.path.join(package, os.path.join(version, filename)))
+        pathExsists = os.path.exists(folderPath)
         if not pathExsists:
             self.pathToMake = folderPath
         return pathExsists
@@ -163,5 +163,5 @@ class downloader:
 
     def delFile(self, _file):
         if os.path.isfile(_file):
-            self.l.info("Deleting %s" % (_file))
+            self.l.info("\t Deleting %s" % (_file))
             os.remove(_file)

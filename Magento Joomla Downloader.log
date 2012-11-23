@@ -1,434 +1,51 @@
-2012-11-23 10:07:36,923 INFO Starting check----------------------------------------
-2012-11-23 10:07:36,924 INFO Searching Magento's latest version
-2012-11-23 10:07:36,924 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 10:07:39,365 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 10:07:39,365 INFO It's a new version, lets download it!
-2012-11-23 10:07:39,365 INFO Made download url for Magento: http://www.magentocommerce.com/downloads/assets/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:07:39,365 INFO Created /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
-2012-11-23 10:07:39,365 INFO Getting ready to download magento-1.7.0.2.zip to /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:07:39,645 INFO Downloading: magento-1.7.0.2.zip Bytes: 28035639
-2012-11-23 10:07:51,101 INFO Done downloading magento-1.7.0.2.zip
-2012-11-23 10:07:51,101 INFO Unzipping /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:07:51,101 INFO Searching for Joomla's latest versions
-2012-11-23 10:07:51,102 INFO Let's chew on some HTML from http://www.joomla.org/download.html
-2012-11-23 10:07:51,527 INFO Getting the versions
-2012-11-23 10:07:51,544 INFO Version is: 2.5.8-Stable-Full
-2012-11-23 10:07:51,544 INFO It's a new version, lets downoad it!
-2012-11-23 10:07:51,545 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full
-2012-11-23 10:07:51,545 INFO Getting ready to download Joomla_2.5.8-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:07:52,185 INFO Downloading: Joomla_2.5.8-Stable-Full_Package.zip Bytes: 7921714
-2012-11-23 10:07:57,046 INFO Done downloading Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:07:57,046 INFO Unzipping /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:07:57,046 INFO Version is: 3.0.2-Stable-Full
-2012-11-23 10:07:57,047 INFO It's a new version, lets downoad it!
-2012-11-23 10:07:57,047 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full
-2012-11-23 10:07:57,047 INFO Getting ready to download Joomla_3.0.2-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:07:57,677 INFO Downloading: Joomla_3.0.2-Stable-Full_Package.zip Bytes: 7872839
-2012-11-23 10:08:02,672 INFO Done downloading Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:08:02,672 INFO Unzipping /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:08:02,672 INFO Stopping----------------------------------------------
-2012-11-23 10:08:32,051 INFO Starting check----------------------------------------
-2012-11-23 10:08:32,051 INFO Searching Magento's latest version
-2012-11-23 10:08:32,052 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 10:08:34,011 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 10:08:34,011 INFO version 1.7.0.2 of Magento is already downloaded
-2012-11-23 10:08:34,012 INFO Searching for Joomla's latest versions
-2012-11-23 10:08:34,012 INFO Let's chew on some HTML from http://www.joomla.org/download.html
-2012-11-23 10:08:34,446 INFO Getting the versions
-2012-11-23 10:08:34,461 INFO Version is: 2.5.8-Stable-Full
-2012-11-23 10:08:34,461 INFO Version 2.5.8-Stable-Full already downloaded
-2012-11-23 10:08:34,461 INFO Version is: 3.0.2-Stable-Full
-2012-11-23 10:08:34,461 INFO Version 3.0.2-Stable-Full already downloaded
-2012-11-23 10:08:34,462 INFO Stopping----------------------------------------------
-2012-11-23 10:08:56,386 INFO Starting check----------------------------------------
-2012-11-23 10:08:56,386 INFO Searching Magento's latest version
-2012-11-23 10:08:56,386 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 10:08:58,336 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 10:08:58,336 INFO It's a new version, lets download it!
-2012-11-23 10:08:58,336 INFO Made download url for Magento: http://www.magentocommerce.com/downloads/assets/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:08:58,336 INFO Created /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
-2012-11-23 10:08:58,336 INFO Getting ready to download magento-1.7.0.2.zip to /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:08:58,616 INFO Downloading: magento-1.7.0.2.zip Bytes: 28035639
-2012-11-23 10:09:09,905 INFO Done downloading magento-1.7.0.2.zip
-2012-11-23 10:09:09,905 INFO Unzipping /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:09:09,905 INFO Searching for Joomla's latest versions
-2012-11-23 10:09:09,906 INFO Let's chew on some HTML from http://www.joomla.org/download.html
-2012-11-23 10:09:10,340 INFO Getting the versions
-2012-11-23 10:09:10,355 INFO Version is: 2.5.8-Stable-Full
-2012-11-23 10:09:10,355 INFO It's a new version, lets downoad it!
-2012-11-23 10:09:10,355 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full
-2012-11-23 10:09:10,355 INFO Getting ready to download Joomla_2.5.8-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:09:11,003 INFO Downloading: Joomla_2.5.8-Stable-Full_Package.zip Bytes: 7921714
-2012-11-23 10:09:15,839 INFO Done downloading Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:09:15,839 INFO Unzipping /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:09:15,840 INFO Version is: 3.0.2-Stable-Full
-2012-11-23 10:09:15,840 INFO It's a new version, lets downoad it!
-2012-11-23 10:09:15,840 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full
-2012-11-23 10:09:15,840 INFO Getting ready to download Joomla_3.0.2-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:09:16,479 INFO Downloading: Joomla_3.0.2-Stable-Full_Package.zip Bytes: 7872839
-2012-11-23 10:09:21,664 INFO Done downloading Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:09:21,664 INFO Unzipping /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:09:21,664 INFO Stopping----------------------------------------------
-2012-11-23 10:09:56,002 INFO Starting check----------------------------------------
-2012-11-23 10:09:56,003 INFO Searching Magento's latest version
-2012-11-23 10:09:56,003 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 10:09:57,967 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 10:09:57,967 INFO version 1.7.0.2 of Magento is already downloaded
-2012-11-23 10:09:57,967 INFO Searching for Joomla's latest versions
-2012-11-23 10:09:57,967 INFO Let's chew on some HTML from http://www.joomla.org/download.html
-2012-11-23 10:09:58,419 INFO Getting the versions
-2012-11-23 10:09:58,438 INFO Version is: 2.5.8-Stable-Full
-2012-11-23 10:09:58,438 INFO Version 2.5.8-Stable-Full already downloaded
-2012-11-23 10:09:58,438 INFO Version is: 3.0.2-Stable-Full
-2012-11-23 10:09:58,438 INFO Version 3.0.2-Stable-Full already downloaded
-2012-11-23 10:09:58,438 INFO Stopping----------------------------------------------
-2012-11-23 10:10:45,161 INFO Starting check----------------------------------------
-2012-11-23 10:10:45,162 INFO Searching Magento's latest version
-2012-11-23 10:10:45,162 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 10:10:47,449 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 10:10:47,449 INFO It's a new version, lets download it!
-2012-11-23 10:10:47,449 INFO Made download url for Magento: http://www.magentocommerce.com/downloads/assets/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:10:47,450 INFO Created /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
-2012-11-23 10:10:47,450 INFO Getting ready to download magento-1.7.0.2.zip to /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:10:47,450 INFO Unzipping 
-2012-11-23 10:11:56,856 INFO Starting check----------------------------------------
-2012-11-23 10:11:56,857 INFO Searching Magento's latest version
-2012-11-23 10:11:56,857 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 10:11:58,736 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 10:11:58,736 INFO It's a new version, lets download it!
-2012-11-23 10:11:58,736 INFO Made download url for Magento: http://www.magentocommerce.com/downloads/assets/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:11:58,736 INFO Getting ready to download magento-1.7.0.2.zip to /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:11:59,017 INFO Downloading: magento-1.7.0.2.zip Bytes: 28035639
-2012-11-23 10:12:10,330 INFO Done downloading magento-1.7.0.2.zip
-2012-11-23 10:12:10,331 INFO Unzipping /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:12:47,699 INFO Starting check----------------------------------------
-2012-11-23 10:12:47,699 INFO Searching Magento's latest version
-2012-11-23 10:12:47,700 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 10:12:49,934 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 10:12:49,934 INFO version 1.7.0.2 of Magento is already downloaded
-2012-11-23 10:12:49,934 INFO Searching for Joomla's latest versions
-2012-11-23 10:12:49,935 INFO Let's chew on some HTML from http://www.joomla.org/download.html
-2012-11-23 10:12:50,399 INFO Getting the versions
-2012-11-23 10:12:50,419 INFO Version is: 2.5.8-Stable-Full
-2012-11-23 10:12:50,419 INFO It's a new version, lets downoad it!
-2012-11-23 10:12:50,420 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full
-2012-11-23 10:12:50,420 INFO Getting ready to download Joomla_2.5.8-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:12:51,086 INFO Downloading: Joomla_2.5.8-Stable-Full_Package.zip Bytes: 7921714
-2012-11-23 10:12:56,052 INFO Done downloading Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:12:56,052 INFO Unzipping /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:13:17,571 INFO Starting check----------------------------------------
-2012-11-23 10:13:17,571 INFO Searching Magento's latest version
-2012-11-23 10:13:17,572 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 10:13:19,502 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 10:13:19,502 INFO version 1.7.0.2 of Magento is already downloaded
-2012-11-23 10:13:19,503 INFO Searching for Joomla's latest versions
-2012-11-23 10:13:19,503 INFO Let's chew on some HTML from http://www.joomla.org/download.html
-2012-11-23 10:13:19,919 INFO Getting the versions
-2012-11-23 10:13:19,934 INFO Version is: 2.5.8-Stable-Full
-2012-11-23 10:13:19,935 INFO Version 2.5.8-Stable-Full already downloaded
-2012-11-23 10:13:19,935 INFO Version is: 3.0.2-Stable-Full
-2012-11-23 10:13:19,935 INFO It's a new version, lets downoad it!
-2012-11-23 10:13:19,935 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full
-2012-11-23 10:13:19,935 INFO Getting ready to download Joomla_3.0.2-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:13:20,589 INFO Downloading: Joomla_3.0.2-Stable-Full_Package.zip Bytes: 7872839
-2012-11-23 10:13:25,682 INFO Done downloading Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:13:25,683 INFO Unzipping /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:14:12,876 INFO Starting check----------------------------------------
-2012-11-23 10:14:12,877 INFO Searching Magento's latest version
-2012-11-23 10:14:12,877 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 10:14:15,829 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 10:14:15,829 INFO It's a new version, lets download it!
-2012-11-23 10:14:15,829 INFO Made download url for Magento: http://www.magentocommerce.com/downloads/assets/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:14:15,829 INFO Created /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
-2012-11-23 10:14:15,829 INFO Getting ready to download magento-1.7.0.2.zip to /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:14:16,109 INFO Downloading: magento-1.7.0.2.zip Bytes: 28035639
-2012-11-23 10:14:27,488 INFO Done downloading magento-1.7.0.2.zip
-2012-11-23 10:14:27,488 INFO Unzipping /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:17:07,102 INFO Starting check----------------------------------------
-2012-11-23 10:17:07,102 INFO Searching Magento's latest version
-2012-11-23 10:17:07,102 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 10:17:09,420 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 10:17:09,420 INFO version 1.7.0.2 of Magento is already downloaded
-2012-11-23 10:17:09,420 INFO Searching for Joomla's latest versions
-2012-11-23 10:17:09,420 INFO Let's chew on some HTML from http://www.joomla.org/download.html
-2012-11-23 10:17:09,900 INFO Getting the versions
-2012-11-23 10:17:09,916 INFO Version is: 2.5.8-Stable-Full
-2012-11-23 10:17:09,917 INFO It's a new version, lets downoad it!
-2012-11-23 10:17:09,917 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full
-2012-11-23 10:17:09,917 INFO Getting ready to download Joomla_2.5.8-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:17:10,650 INFO Downloading: Joomla_2.5.8-Stable-Full_Package.zip Bytes: 7921714
-2012-11-23 10:17:15,660 INFO Done downloading Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:17:15,660 INFO Unzipping /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:17:15,660 INFO Version is: 3.0.2-Stable-Full
-2012-11-23 10:17:15,660 INFO It's a new version, lets downoad it!
-2012-11-23 10:17:15,661 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full
-2012-11-23 10:17:15,661 INFO Getting ready to download Joomla_3.0.2-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:17:16,320 INFO Downloading: Joomla_3.0.2-Stable-Full_Package.zip Bytes: 7872839
-2012-11-23 10:17:21,287 INFO Done downloading Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:17:21,287 INFO Unzipping /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:17:21,287 INFO Stopping----------------------------------------------
-2012-11-23 10:18:59,827 INFO Starting check----------------------------------------
-2012-11-23 10:18:59,827 INFO Searching Magento's latest version
-2012-11-23 10:18:59,828 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 10:19:02,212 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 10:19:02,212 INFO It's a new version, lets download it!
-2012-11-23 10:19:02,212 INFO Made download url for Magento: http://www.magentocommerce.com/downloads/assets/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:19:02,212 INFO Created /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
-2012-11-23 10:19:02,213 INFO Getting ready to download magento-1.7.0.2.zip to /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:19:02,493 INFO Downloading: magento-1.7.0.2.zip Bytes: 28035639
-2012-11-23 10:19:13,768 INFO Done downloading magento-1.7.0.2.zip
-2012-11-23 10:19:13,768 INFO Unzipping /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:19:13,769 INFO Searching for Joomla's latest versions
-2012-11-23 10:19:13,769 INFO Let's chew on some HTML from http://www.joomla.org/download.html
-2012-11-23 10:19:14,553 INFO Getting the versions
-2012-11-23 10:19:14,575 INFO Version is: 2.5.8-Stable-Full
-2012-11-23 10:19:14,575 INFO It's a new version, lets downoad it!
-2012-11-23 10:19:14,576 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full
-2012-11-23 10:19:14,576 INFO Getting ready to download Joomla_2.5.8-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:19:15,222 INFO Downloading: Joomla_2.5.8-Stable-Full_Package.zip Bytes: 7921714
-2012-11-23 10:19:20,175 INFO Done downloading Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:19:20,175 INFO Unzipping /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:19:20,175 INFO Version is: 3.0.2-Stable-Full
-2012-11-23 10:19:20,175 INFO It's a new version, lets downoad it!
-2012-11-23 10:19:20,176 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full
-2012-11-23 10:19:20,176 INFO Getting ready to download Joomla_3.0.2-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:19:20,822 INFO Downloading: Joomla_3.0.2-Stable-Full_Package.zip Bytes: 7872839
-2012-11-23 10:19:25,957 INFO Done downloading Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:19:25,957 INFO Unzipping /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:19:25,958 INFO Stopping----------------------------------------------
-2012-11-23 10:19:53,347 INFO Starting check----------------------------------------
-2012-11-23 10:19:53,348 INFO Searching Magento's latest version
-2012-11-23 10:19:53,348 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 10:19:55,278 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 10:19:55,278 INFO It's a new version, lets download it!
-2012-11-23 10:19:55,278 INFO Made download url for Magento: http://www.magentocommerce.com/downloads/assets/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:19:55,279 INFO Created /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
-2012-11-23 10:19:55,279 INFO Getting ready to download magento-1.7.0.2.zip to /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:19:55,558 INFO Downloading: magento-1.7.0.2.zip Bytes: 28035639
-2012-11-23 10:20:06,766 INFO Done downloading magento-1.7.0.2.zip
-2012-11-23 10:20:06,767 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:20:06,767 INFO Searching for Joomla's latest versions
-2012-11-23 10:20:06,767 INFO Let's chew on some HTML from http://www.joomla.org/download.html
-2012-11-23 10:20:07,198 INFO Getting the versions
-2012-11-23 10:20:07,217 INFO Version is: 2.5.8-Stable-Full
-2012-11-23 10:20:07,218 INFO It's a new version, lets downoad it!
-2012-11-23 10:20:07,218 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full
-2012-11-23 10:20:07,218 INFO Getting ready to download Joomla_2.5.8-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:20:07,871 INFO Downloading: Joomla_2.5.8-Stable-Full_Package.zip Bytes: 7921714
-2012-11-23 10:20:12,920 INFO Done downloading Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:20:12,920 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:20:12,920 INFO Version is: 3.0.2-Stable-Full
-2012-11-23 10:20:12,921 INFO It's a new version, lets downoad it!
-2012-11-23 10:20:12,921 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full
-2012-11-23 10:20:12,921 INFO Getting ready to download Joomla_3.0.2-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:20:13,590 INFO Downloading: Joomla_3.0.2-Stable-Full_Package.zip Bytes: 7872839
-2012-11-23 10:20:18,465 INFO Done downloading Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:20:18,465 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:20:18,465 INFO Stopping----------------------------------------------
-2012-11-23 10:23:04,299 INFO Starting check----------------------------------------
-2012-11-23 10:23:04,299 INFO Searching Magento's latest version
-2012-11-23 10:23:04,299 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 10:23:06,293 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 10:23:06,293 INFO version 1.7.0.2 of Magento is already downloaded
-2012-11-23 10:23:06,293 INFO Searching for Joomla's latest versions
-2012-11-23 10:23:06,293 INFO Let's chew on some HTML from http://www.joomla.org/download.html
-2012-11-23 10:23:06,712 INFO Getting the versions
-2012-11-23 10:23:06,730 INFO Version is: 2.5.8-Stable-Full
-2012-11-23 10:23:06,730 INFO Version 2.5.8-Stable-Full already downloaded
-2012-11-23 10:23:06,730 INFO Version is: 3.0.2-Stable-Full
-2012-11-23 10:23:06,731 INFO Version 3.0.2-Stable-Full already downloaded
-2012-11-23 10:23:06,731 INFO Stopping----------------------------------------------
-2012-11-23 10:23:11,980 INFO Starting check----------------------------------------
-2012-11-23 10:23:11,980 INFO Searching Magento's latest version
-2012-11-23 10:23:11,981 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 10:23:14,076 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 10:23:14,076 INFO It's a new version, lets download it!
-2012-11-23 10:23:14,076 INFO Made download url for Magento: http://www.magentocommerce.com/downloads/assets/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:23:14,076 INFO Created /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
-2012-11-23 10:23:14,076 INFO Getting ready to download magento-1.7.0.2.zip to /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:23:14,357 INFO Downloading: magento-1.7.0.2.zip Bytes: 28035639
-2012-11-23 10:23:25,742 INFO Done downloading magento-1.7.0.2.zip
-2012-11-23 10:23:25,742 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:23:25,742 INFO 	 Extracting into: /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
-2012-11-23 10:23:36,234 INFO Searching for Joomla's latest versions
-2012-11-23 10:23:36,235 INFO Let's chew on some HTML from http://www.joomla.org/download.html
-2012-11-23 10:23:36,652 INFO Getting the versions
-2012-11-23 10:23:36,687 INFO Version is: 2.5.8-Stable-Full
-2012-11-23 10:23:36,687 INFO It's a new version, lets downoad it!
-2012-11-23 10:23:36,688 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full
-2012-11-23 10:23:36,689 INFO Getting ready to download Joomla_2.5.8-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:23:38,055 INFO Downloading: Joomla_2.5.8-Stable-Full_Package.zip Bytes: 7921714
-2012-11-23 10:23:43,568 INFO Done downloading Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:23:43,570 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:23:43,570 INFO 	 Extracting into: /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full
-2012-11-23 10:23:47,112 INFO Version is: 3.0.2-Stable-Full
-2012-11-23 10:23:47,113 INFO It's a new version, lets downoad it!
-2012-11-23 10:23:47,113 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full
-2012-11-23 10:23:47,113 INFO Getting ready to download Joomla_3.0.2-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:23:47,769 INFO Downloading: Joomla_3.0.2-Stable-Full_Package.zip Bytes: 7872839
-2012-11-23 10:23:52,730 INFO Done downloading Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:23:52,730 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:23:52,730 INFO 	 Extracting into: /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full
-2012-11-23 10:23:56,780 INFO Stopping----------------------------------------------
-2012-11-23 10:30:34,180 INFO Starting check----------------------------------------
-2012-11-23 10:30:34,180 INFO Searching Magento's latest version
-2012-11-23 10:30:34,180 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 10:30:36,520 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 10:30:36,520 INFO It's a new version, lets download it!
-2012-11-23 10:30:36,520 INFO Made download url for Magento: http://www.magentocommerce.com/downloads/assets/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:30:36,521 INFO Created /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
-2012-11-23 10:30:36,521 INFO Getting ready to download magento-1.7.0.2.zip to /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:30:36,802 INFO Downloading: magento-1.7.0.2.zip Bytes: 28035639
-2012-11-23 10:30:48,135 INFO Done downloading magento-1.7.0.2.zip
-2012-11-23 10:30:48,135 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:30:48,135 INFO 	 Extracting into: /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
-2012-11-23 10:31:40,120 INFO Starting check----------------------------------------
-2012-11-23 10:31:40,120 INFO Searching Magento's latest version
-2012-11-23 10:31:40,120 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 10:31:42,050 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 10:31:42,050 INFO It's a new version, lets download it!
-2012-11-23 10:31:42,050 INFO Made download url for Magento: http://www.magentocommerce.com/downloads/assets/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:31:42,051 INFO Created /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
-2012-11-23 10:31:42,051 INFO Getting ready to download magento-1.7.0.2.zip to /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:31:42,332 INFO Downloading: magento-1.7.0.2.zip Bytes: 28035639
-2012-11-23 10:31:53,771 INFO Done downloading magento-1.7.0.2.zip
-2012-11-23 10:31:53,771 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:31:53,771 INFO 	 Extracting into: /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
-2012-11-23 10:32:34,444 INFO Starting check----------------------------------------
-2012-11-23 10:32:34,445 INFO Searching Magento's latest version
-2012-11-23 10:32:34,445 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 10:32:36,701 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 10:32:36,701 INFO It's a new version, lets download it!
-2012-11-23 10:32:36,701 INFO Made download url for Magento: http://www.magentocommerce.com/downloads/assets/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:32:36,702 INFO Created /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
-2012-11-23 10:32:36,702 INFO Getting ready to download magento-1.7.0.2.zip to /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:32:36,982 INFO Downloading: magento-1.7.0.2.zip Bytes: 28035639
-2012-11-23 10:32:48,340 INFO Done downloading magento-1.7.0.2.zip
-2012-11-23 10:32:48,340 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:32:48,340 INFO 	 Extracting into: /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
-2012-11-23 10:34:45,382 INFO Starting check----------------------------------------
-2012-11-23 10:34:45,382 INFO Searching Magento's latest version
-2012-11-23 10:34:45,382 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 10:34:47,976 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 10:34:47,976 INFO It's a new version, lets download it!
-2012-11-23 10:34:47,976 INFO Made download url for Magento: http://www.magentocommerce.com/downloads/assets/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:34:47,977 INFO Created /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
-2012-11-23 10:34:47,977 INFO Getting ready to download magento-1.7.0.2.zip to /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:34:48,257 INFO Downloading: magento-1.7.0.2.zip Bytes: 28035639
-2012-11-23 10:34:59,631 INFO Done downloading magento-1.7.0.2.zip
-2012-11-23 10:34:59,631 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 10:34:59,631 INFO 	 Extracting into: /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
-2012-11-23 10:35:05,814 INFO Searching for Joomla's latest versions
-2012-11-23 10:35:05,815 INFO Let's chew on some HTML from http://www.joomla.org/download.html
-2012-11-23 10:35:07,970 INFO Getting the versions
-2012-11-23 10:35:07,986 INFO Version is: 2.5.8-Stable-Full
-2012-11-23 10:35:07,986 INFO It's a new version, lets downoad it!
-2012-11-23 10:35:07,987 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full
-2012-11-23 10:35:07,987 INFO Getting ready to download Joomla_2.5.8-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:35:08,998 INFO Downloading: Joomla_2.5.8-Stable-Full_Package.zip Bytes: 7921714
-2012-11-23 10:35:14,691 INFO Done downloading Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:35:14,691 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 10:35:14,691 INFO 	 Extracting into: /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full
-2012-11-23 10:35:17,627 INFO Version is: 3.0.2-Stable-Full
-2012-11-23 10:35:17,627 INFO It's a new version, lets downoad it!
-2012-11-23 10:35:17,627 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full
-2012-11-23 10:35:17,627 INFO Getting ready to download Joomla_3.0.2-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:35:18,280 INFO Downloading: Joomla_3.0.2-Stable-Full_Package.zip Bytes: 7872839
-2012-11-23 10:35:23,197 INFO Done downloading Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:35:23,197 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 10:35:23,197 INFO 	 Extracting into: /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full
-2012-11-23 10:35:26,802 INFO Stopping----------------------------------------------
-2012-11-23 13:00:59,921 INFO Starting check----------------------------------------
-2012-11-23 13:00:59,924 INFO Searching Magento's latest version
-2012-11-23 13:00:59,925 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 13:01:01,921 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 13:01:01,921 INFO It's a new version, lets download it!
-2012-11-23 13:01:01,921 INFO Made download url for Magento: http://www.magentocommerce.com/downloads/assets/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 13:01:01,922 INFO Created /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
-2012-11-23 13:01:01,922 INFO Getting ready to download magento-1.7.0.2.zip to /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 13:01:02,201 INFO Downloading: magento-1.7.0.2.zip Bytes: 28035639
-2012-11-23 13:01:13,482 INFO Done downloading magento-1.7.0.2.zip
-2012-11-23 13:01:13,482 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 13:01:13,482 INFO 	 Extracting into: /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
-2012-11-23 13:01:21,182 INFO 	 Done unzipping /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 13:01:21,198 INFO Deleting /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 13:01:21,200 INFO Searching for Joomla's latest versions
-2012-11-23 13:01:21,200 INFO Let's chew on some HTML from http://www.joomla.org/download.html
-2012-11-23 13:01:23,070 INFO Getting the versions
-2012-11-23 13:01:23,085 INFO Version is: 2.5.8-Stable-Full
-2012-11-23 13:01:23,085 INFO It's a new version, lets downoad it!
-2012-11-23 13:01:23,086 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full
-2012-11-23 13:01:23,086 INFO Getting ready to download Joomla_2.5.8-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 13:01:23,787 INFO Downloading: Joomla_2.5.8-Stable-Full_Package.zip Bytes: 7921714
-2012-11-23 13:01:28,981 INFO Done downloading Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 13:01:28,982 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 13:01:28,982 INFO 	 Extracting into: /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full
-2012-11-23 13:01:31,536 INFO 	 Done unzipping /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 13:01:31,542 INFO Deleting /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 13:01:31,544 INFO Version is: 3.0.2-Stable-Full
-2012-11-23 13:01:31,545 INFO It's a new version, lets downoad it!
-2012-11-23 13:01:31,545 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full
-2012-11-23 13:01:31,545 INFO Getting ready to download Joomla_3.0.2-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 13:01:32,217 INFO Downloading: Joomla_3.0.2-Stable-Full_Package.zip Bytes: 7872839
-2012-11-23 13:01:37,455 INFO Done downloading Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 13:01:37,455 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 13:01:37,455 INFO 	 Extracting into: /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full
-2012-11-23 13:01:40,219 INFO 	 Done unzipping /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 13:01:40,227 INFO Deleting /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 13:01:40,228 INFO Stopping----------------------------------------------
-2012-11-23 13:40:24,325 INFO Starting check----------------------------------------
-2012-11-23 13:40:24,326 INFO Searching Magento's latest version
-2012-11-23 13:40:24,326 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 13:40:26,681 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 13:40:26,681 INFO It's a new version, lets download it!
-2012-11-23 13:40:26,682 INFO Made download url for Magento: http://www.magentocommerce.com/downloads/assets/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 13:40:26,682 INFO Getting ready to download magento-1.7.0.2.zip to /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 13:41:32,156 INFO Starting check----------------------------------------
-2012-11-23 13:41:32,156 INFO Searching Magento's latest version
-2012-11-23 13:41:32,156 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 13:41:34,077 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 13:41:34,078 INFO It's a new version, lets download it!
-2012-11-23 13:41:34,078 INFO Made download url for Magento: http://www.magentocommerce.com/downloads/assets/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 13:41:34,078 INFO Getting ready to download magento-1.7.0.2.zip to /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 13:41:34,357 INFO Downloading: magento-1.7.0.2.zip Bytes: 28035639
-2012-11-23 13:41:45,713 INFO Done downloading magento-1.7.0.2.zip
-2012-11-23 13:41:45,714 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 13:41:45,714 INFO 	 Extracting into: /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
-2012-11-23 13:42:21,580 INFO Starting check----------------------------------------
-2012-11-23 13:42:21,585 INFO Searching Magento's latest version
-2012-11-23 13:42:21,586 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
-2012-11-23 13:42:23,901 INFO Magento's latest version is: 1.7.0.2
-2012-11-23 13:42:23,901 INFO It's a new version, lets download it!
-2012-11-23 13:42:23,901 INFO Made download url for Magento: http://www.magentocommerce.com/downloads/assets/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 13:42:23,901 INFO Created /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
-2012-11-23 13:42:23,902 INFO Getting ready to download magento-1.7.0.2.zip to /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 13:42:24,181 INFO Downloading: magento-1.7.0.2.zip Bytes: 28035639
-2012-11-23 13:42:35,506 INFO Done downloading magento-1.7.0.2.zip
-2012-11-23 13:42:35,506 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 13:42:35,506 INFO 	 Extracting into: /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
-2012-11-23 13:42:42,656 INFO 	 Done unzipping /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 13:42:42,671 INFO Deleting /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
-2012-11-23 13:42:42,674 INFO Searching for Joomla's latest versions
-2012-11-23 13:42:42,674 INFO Let's chew on some HTML from http://www.joomla.org/download.html
-2012-11-23 13:42:43,468 INFO Getting the versions
-2012-11-23 13:42:43,483 INFO Version is: 2.5.8-Stable-Full
-2012-11-23 13:42:43,483 INFO It's a new version, lets downoad it!
-2012-11-23 13:42:43,484 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full
-2012-11-23 13:42:43,484 INFO Getting ready to download Joomla_2.5.8-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 13:42:44,625 INFO Downloading: Joomla_2.5.8-Stable-Full_Package.zip Bytes: 7921714
-2012-11-23 13:42:49,909 INFO Done downloading Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 13:42:49,909 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 13:42:49,909 INFO 	 Extracting into: /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full
-2012-11-23 13:42:52,223 INFO 	 Done unzipping /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 13:42:52,228 INFO Deleting /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
-2012-11-23 13:42:52,229 INFO Version is: 3.0.2-Stable-Full
-2012-11-23 13:42:52,230 INFO It's a new version, lets downoad it!
-2012-11-23 13:42:52,230 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full
-2012-11-23 13:42:52,230 INFO Getting ready to download Joomla_3.0.2-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 13:42:52,881 INFO Downloading: Joomla_3.0.2-Stable-Full_Package.zip Bytes: 7872839
-2012-11-23 13:42:58,049 INFO Done downloading Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 13:42:58,049 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 13:42:58,049 INFO 	 Extracting into: /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full
-2012-11-23 13:43:00,352 INFO 	 Done unzipping /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 13:43:00,358 INFO Deleting /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
-2012-11-23 13:43:00,359 INFO Stopping----------------------------------------------
+2012-11-23 14:18:14,836 INFO Starting check----------------------------------------
+2012-11-23 14:18:14,836 INFO Searching Magento's latest version
+2012-11-23 14:18:14,837 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
+2012-11-23 14:18:16,906 INFO Magento's latest version is: 1.7.0.2
+2012-11-23 14:18:16,907 INFO version 1.7.0.2 of Magento is already downloaded
+2012-11-23 14:18:16,907 INFO Searching for Joomla's latest versions
+2012-11-23 14:18:16,907 INFO Let's chew on some HTML from http://www.joomla.org/download.html
+2012-11-23 14:18:17,707 INFO Getting the versions
+2012-11-23 14:18:17,722 INFO Version is: 2.5.8-Stable-Full
+2012-11-23 14:18:17,723 INFO Version 2.5.8-Stable-Full already downloaded
+2012-11-23 14:18:17,723 INFO Version is: 3.0.2-Stable-Full
+2012-11-23 14:18:17,723 INFO Version 3.0.2-Stable-Full already downloaded
+2012-11-23 14:18:17,723 INFO Stopping----------------------------------------------
+2012-11-23 14:18:59,259 INFO Starting check----------------------------------------
+2012-11-23 14:18:59,259 INFO Searching Magento's latest version
+2012-11-23 14:18:59,259 INFO Let's chew on some HTML from https://www.magentocommerce.com/download
+2012-11-23 14:19:01,179 INFO Magento's latest version is: 1.7.0.2
+2012-11-23 14:19:01,179 INFO It's a new version, lets download it!
+2012-11-23 14:19:01,179 INFO Made download url for Magento: http://www.magentocommerce.com/downloads/assets/1.7.0.2/magento-1.7.0.2.zip
+2012-11-23 14:19:01,180 INFO Created /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
+2012-11-23 14:19:01,180 INFO Getting ready to download magento-1.7.0.2.zip to /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
+2012-11-23 14:19:01,459 INFO Downloading: magento-1.7.0.2.zip Bytes: 28035639
+2012-11-23 14:19:12,668 INFO Done downloading magento-1.7.0.2.zip
+2012-11-23 14:19:12,668 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
+2012-11-23 14:19:12,668 INFO 	 Extracting into: /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2
+2012-11-23 14:19:23,912 INFO 	 Done unzipping /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
+2012-11-23 14:19:23,935 INFO Deleting /Volumes/Extra HDD/BSMedia/Magento/1.7.0.2/magento-1.7.0.2.zip
+2012-11-23 14:19:23,938 INFO Searching for Joomla's latest versions
+2012-11-23 14:19:23,938 INFO Let's chew on some HTML from http://www.joomla.org/download.html
+2012-11-23 14:19:24,356 INFO Getting the versions
+2012-11-23 14:19:24,380 INFO Version is: 2.5.8-Stable-Full
+2012-11-23 14:19:24,380 INFO It's a new version, lets downoad it!
+2012-11-23 14:19:24,381 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full
+2012-11-23 14:19:24,381 INFO Getting ready to download Joomla_2.5.8-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
+2012-11-23 14:19:25,895 INFO Downloading: Joomla_2.5.8-Stable-Full_Package.zip Bytes: 7921714
+2012-11-23 14:19:31,000 INFO Done downloading Joomla_2.5.8-Stable-Full_Package.zip
+2012-11-23 14:19:31,001 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
+2012-11-23 14:19:31,001 INFO 	 Extracting into: /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full
+2012-11-23 14:19:34,315 INFO 	 Done unzipping /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
+2012-11-23 14:19:34,324 INFO Deleting /Volumes/Extra HDD/BSMedia/Joomla/2.5.8-Stable-Full/Joomla_2.5.8-Stable-Full_Package.zip
+2012-11-23 14:19:34,325 INFO Version is: 3.0.2-Stable-Full
+2012-11-23 14:19:34,326 INFO It's a new version, lets downoad it!
+2012-11-23 14:19:34,326 INFO Created /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full
+2012-11-23 14:19:34,326 INFO Getting ready to download Joomla_3.0.2-Stable-Full_Package.zip to /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
+2012-11-23 14:19:35,043 INFO Downloading: Joomla_3.0.2-Stable-Full_Package.zip Bytes: 7872839
+2012-11-23 14:19:39,953 INFO Done downloading Joomla_3.0.2-Stable-Full_Package.zip
+2012-11-23 14:19:39,954 INFO 	 Unzipping /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
+2012-11-23 14:19:39,954 INFO 	 Extracting into: /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full
+2012-11-23 14:19:42,953 INFO 	 Done unzipping /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
+2012-11-23 14:19:42,962 INFO Deleting /Volumes/Extra HDD/BSMedia/Joomla/3.0.2-Stable-Full/Joomla_3.0.2-Stable-Full_Package.zip
+2012-11-23 14:19:42,963 INFO Stopping----------------------------------------------
