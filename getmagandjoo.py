@@ -61,6 +61,7 @@ class downloader:
             self.createPath() #create the path needed for the download
             self.download(theUrl) #download tha sjizzle!!
             self.unzip(self.zipFile)
+            self.delFile(self.zipFile)
         else: #print a nice notice if the version already exsists
             self.l.info("version %s of Magento is already downloaded" % (version))
     ## 
@@ -100,6 +101,7 @@ class downloader:
                 #and download that pice file!
                 self.download(link)
                 self.unzip(self.zipFile)
+                self.delFile(self.zipFile)
             else: #otherwise, let them know that this version is already downloaded
                 self.l.info("Version %s already downloaded" % (version))
     ## 
@@ -133,11 +135,7 @@ class downloader:
                 if not buffer:
                     break
 
-                # file_size_dl += len(buffer)
-                f.write(buffer)
-                # status       = r"%10d  [%3.2f%%]" % (file_size_dl, file_size_dl * 100. / file_size)
-                # status       = status + chr(8)*(len(status)+1)
-                # self.l.info(status)
+                f.write(buffer)                
 
             f.close()
             self.l.info("Done downloading %s" % (file_name))
@@ -163,17 +161,35 @@ class downloader:
             os.makedirs(path)
             self.l.info("Created %s" % (path))
         self.downloadPath = path
-
+    ## 
+    # Unzip a file to the directory it's located in
+    # @_file string A string of the full path to the file that needs to be unzipped 
     def unzip(self, _file):
         self.l.info("\t Unzipping %s" % (_file))
+        #get the base dir to extract to
         _dir = os.path.dirname(_file)
         self.l.info("\t Extracting into: %s" % (_dir))
-        z = zip(_file)
+        z = zip(_file) #initiate the zip class, give it the file
+        #Go over eatch file in the zip file
         for f in z.namelist():
+            #when it ends with a / its a folder, make it
             if f.endswith('/'):
                 os.makedirs(os.path.join(_dir, f))
+            #if it doensn't end with a / its a file
             else:
-                z.extract(os.path.join(_dir,f))
+                #make a binary file in the location
+                outfile = open(os.path.join(_dir, f), 'wb')
+                #write the file in the zip into the binary file
+                outfile.write(z.read(f))
+                #close the binary file
+                outfile.close()
+        self.l.info("\t Done unzipping %s" % (_file))
+
+    def delFile(self, _file):
+        if os.path.isfile(_file):
+            self.l.info("Deleting %s" % (_file))
+            os.remove(_file)
+
 
 class JoomlaParser(HTMLParser):
     inDownloadButton = False #Get sets to True when the download button is found
