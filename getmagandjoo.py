@@ -27,5 +27,6 @@ if __name__ == "__main__":
 		d.getMage()
 		#get the latest Joomla version
 		d.getJom()
+		#get the latest Wordpress version
 		d.getWordPress()
 		d.l.info("Stopping----------------------------------------------")

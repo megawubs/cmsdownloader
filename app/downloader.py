@@ -81,21 +81,28 @@ class downloader:
 
     def getWordPress(self):
         self.l.info('Searching for Wordpress latest version')
+        #get the html from wordpress site
         html = self.bot.GET(self.wpDownloadPage)
+        #start the parser
         parser = wordPressParser()
         self.l.info("Let's chew on some HTML from %s" % (self.wpDownloadPage))
+        #feed it some nice html
         parser.feed(html)
         self.l.info('Version is: %s' % (parser.version))
+        #check if the version of this package is already downloaded
         if not self.checkVersion('Wordpress', parser.version, parser.filename):
             self.l.info("It's a new version, lets downoad it!")
+            #create the path
             self.createPath()
+            #download the file
             self.download(parser.url)
+            #unzip it
             self.unzip(self.zipFile)
+            #delte the sip file
             self.delFile(self.zipFile)
         else:
+            #nicely tell them it's already downloaded
             self.l.info("Version %s already downloaded" % (parser.version))
-        # print parser.url
-        # pprint(parser)
 
     ## 
     # Downloads the file url given to it into the packages's folder
