@@ -1,4 +1,4 @@
-from htmlparsers import JoomlaParser, MagentoParser
+from htmlparsers import JoomlaParser, MagentoParser, wordPressParser
 from httpbot import HttpBot
 from MyLogger import MyLogger
 from zipfile import ZipFile as zip
@@ -6,18 +6,16 @@ import os, sys, urllib2
 
 class downloader:
     def __init__(self, basePath):
+        self.basePath           = basePath
         self.bot                = HttpBot()
         self.mageDownloadPage   = 'https://www.magentocommerce.com/download'
+        self.wpDownloadPage     = 'http://nl.wordpress.org/'
         self.mageDownloadUrl    = 'http://www.magentocommerce.com/downloads/assets/%s/%s'
         self.jomDownloadPage    = 'http://www.joomla.org/download.html'
-        self.basePath           = basePath
         self.downloadFiles      = True
         self.pathToMake         = ''
-        self.l                  = MyLogger().logger
         self.zipFile            = ''
-        if not os.path.isdir(self.basePath):
-            self.log.error('Path to download to does not exist')
-            exit()
+        self.errorMsg           = 'ERROR: Path to download location to does not exist'
     ## 
     # Downloads Magento if the lates version is not already downloaded 
     def getMage(self):
@@ -80,6 +78,25 @@ class downloader:
                 self.delFile(self.zipFile)
             else: #otherwise, let them know that this version is already downloaded
                 self.l.info("Version %s already downloaded" % (version))
+
+    def getWordPress(self):
+        self.l.info('Searching for Wordpress latest version')
+        html = self.bot.GET(self.wpDownloadPage)
+        parser = wordPressParser()
+        self.l.info("Let's chew on some HTML from %s" % (self.wpDownloadPage))
+        parser.feed(html)
+        self.l.info('Version is: %s' % (parser.version))
+        if not self.checkVersion('Wordpress', parser.version, parser.filename):
+            self.l.info("It's a new version, lets downoad it!")
+            self.createPath()
+            self.download(parser.url)
+            self.unzip(self.zipFile)
+            self.delFile(self.zipFile)
+        else:
+            self.l.info("Version %s already downloaded" % (parser.version))
+        # print parser.url
+        # pprint(parser)
+
     ## 
     # Downloads the file url given to it into the packages's folder
     # based on self.downloadPath
@@ -163,5 +180,14 @@ class downloader:
 
     def delFile(self, _file):
         if os.path.isfile(_file):
-            self.l.info("\t Deleting %s" % (_file))
             os.remove(_file)
+            self.l.info("\t Deleted %s" % (_file))
+
+    def checkDir(self):
+        return os.path.isdir(self.basePath)
+            
+
+    def startLogger(self):
+        self.l = MyLogger(self.basePath).logger
+
+

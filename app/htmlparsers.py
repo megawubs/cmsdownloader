@@ -1,4 +1,5 @@
 from HTMLParser import HTMLParser
+from pprint import pprint
 
 class JoomlaParser(HTMLParser):
     inDownloadButton = False #Get sets to True when the download button is found
@@ -34,3 +35,20 @@ class MagentoParser(HTMLParser):
                     if 'magento' in down:
                         version = down.split('/')[0] #get the version
                         self.versions.append(version) #append it to the versions list
+
+class wordPressParser(HTMLParser):
+    url = ''
+    filename = ''
+    version = ''
+    def handle_starttag(self, tag, attrs):
+        if tag == 'a':
+            if len(attrs):
+                if attrs[0][1] == "download-button":
+                   url = attrs[1][1]
+                   filename = url.split('/')[-1]
+                   version = filename.split('-')[1]
+                   self.url = url
+                   self.filename = filename
+                   self.version = version
+
+
