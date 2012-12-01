@@ -26,10 +26,7 @@ class downloader:
         filename = 'magento-'+version+'.zip'
         if not self.checkVersion("Magento", version, filename):
             self.l.info("It's a new version, lets download it!")
-            # self.versions['Magento'].append(version) #append the version into the versions dict
             # create the download url based on the version
-            
-            # theUrl  = 'http://www.magentocommerce.com/downloads/assets/'+version+'/'+filename
             theUrl = self.mageDownloadUrl % (version, filename)
             self.l.info("Made download url for Magento: %s" % (theUrl))
             self.createPath() #create the path needed for the download
