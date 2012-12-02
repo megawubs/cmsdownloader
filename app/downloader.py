@@ -15,7 +15,7 @@ class downloader:
         self.downloadFiles      = True
         self.pathToMake         = ''
         self.zipFile            = ''
-        self.errorMsg           = 'ERROR: Path to download location to does not exist'
+        self.errorMsg           = 'ERROR: Path to download location does not exist'
     ## 
     # Downloads Magento if the lates version is not already downloaded 
     def getMage(self):
