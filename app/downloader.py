@@ -16,6 +16,7 @@ class downloader:
         self.pathToMake         = ''
         self.zipFile            = ''
         self.errorMsg           = 'ERROR: Path to download location does not exist'
+        self.downlMessage       = "It's a new version, lets download it!"
     ## 
     # Downloads Magento if the lates version is not already downloaded 
     def getMage(self):
@@ -25,7 +26,7 @@ class downloader:
         #if the latest version is not yet downloaded, download it
         filename = 'magento-'+version+'.zip'
         if not self.checkVersion("Magento", version, filename):
-            self.l.info("It's a new version, lets download it!")
+            self.l.info(self.downlMessage)
             # create the download url based on the version
             theUrl = self.mageDownloadUrl % (version, filename)
             self.l.info("Made download url for Magento: %s" % (theUrl))
@@ -67,7 +68,7 @@ class downloader:
             #check if the version already exsists,
             if not self.checkVersion('Joomla', version, filename):
                 #if not, create the download path
-                self.l.info("It's a new version, lets downoad it!")
+                self.l.info(self.downlMessage)
                 self.createPath()
                 #and download that pice file!
                 self.download(link)
@@ -88,7 +89,7 @@ class downloader:
         self.l.info('Version is: %s' % (parser.version))
         #check if the version of this package is already downloaded
         if not self.checkVersion('Wordpress', parser.version, parser.filename):
-            self.l.info("It's a new version, lets downoad it!")
+            self.l.info(self.downlMessage)
             #create the path
             self.createPath()
             #download the file
