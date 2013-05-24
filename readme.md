@@ -16,6 +16,6 @@ When there is a new version, it'll keep the older version and just make a new ve
 
 ### Adding your own CMS to download
 
-It's really easy to add your own downloader, just add your own htmlparser in app/htmlparsers.py and your own downloader in downloader.py and it should work. The downloader class has build in download, unzip, version check and delete functions that you can use for your custom CMS download function. I'm planning on making this proces easyer.
+It's really easy to add your own downloader, just add your own htmlparser in app/htmlparsers.py and your own downloader in downloader.py and it should work. The downloader class has build in download, unzip, version check and delete functions that you can use for your custom CMS download function. I'm planning on making this proces easier.
 
 
